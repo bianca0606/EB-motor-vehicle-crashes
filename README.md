@@ -53,16 +53,7 @@ The following are the Python libraries required to run all the code in this proj
 | scipy        | shap          |
 | matplotlib   | openpyxl      |  
 | seaborn      |               | 
-## Methodology
-### Data preprocessing
-- Missing values: Remove samples with missing core fields;
-- Outliers: Filter extreme values of continuous variables based on the 3σ principle;
-- Collinearity: Eliminate features with a correlation coefficient greater than 0.7;
-- Standardization: Z-score standardize continuous features.
-### Model methods
-- Nested Logit model: Divide the nested layers according to accident risk (low/high), and fit parameters using the L-BFGS-B algorithm;
-- PSO-XGBoost: Use the PSO algorithm to optimize the hyperparameters of XGBoost, and compare it with the basic XGBoost/RF/BP neural network;
-- Interpretability: Analyze feature contribution using the SHAP framework, and supplement the interpretation of nested Logit coefficients.
+
 	
 	
 	

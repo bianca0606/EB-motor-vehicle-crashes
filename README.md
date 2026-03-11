@@ -1,0 +1,2 @@
+Description
+This project focuses on the collection, analysis and visualization of data related to collisions between electric bicycles and motor vehicles. The aim is to uncover the underlying patterns of collision accidents through structured datasets and reusable code, providing data support for traffic management, safety analysis and policy formulation. The project includes a preprocessed dataset of motor vehicle collision accidents, as well as code scripts for data cleaning, analysis and visualization.

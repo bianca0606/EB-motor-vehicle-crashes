@@ -98,7 +98,8 @@ Since the NAIS contains sensitive data such as accident details, the files we ar
 For the PSO-XGBoost model, we use 5-fold cross-validation within the optimization framework to adjust the hyperparameters in the training data. Once the optimal parameters are determined, each model will be retrained on the entire training set and evaluated on a separate holdout test set. Model performance is measured using metrics such as accuracy, precision, recall, and F1 score. SHAP, a powerful model for explaining machine learning models, is used to visualize the predicted results.
 NLM specifically uses some of the important feature factors obtained from PSO-XGBoost-SHAP through quantitative analysis. This part does not involve computer models.
 
-Citations: This manuscript has not been published yet. Therefore, no citation content is included here for the time being. If it is published, we will make necessary amendments.
+Citations: 
+This manuscript has not been published yet. Therefore, no citation content is included here for the time being. If it is published, we will make necessary amendments.
 
 License & Contribution Guidelines：
 This project is for academic research use only. All codes and datasets are provided exclusively for the review and reproduction of the manuscript. Commercial use, distribution, or modification without permission is prohibited. For questions or correspondence, please contact the corresponding author.
